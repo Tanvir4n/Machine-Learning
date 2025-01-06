@@ -42,3 +42,5 @@ grid_search = GridSearchCV(model, param_grid, cv=3, scoring='accuracy')
 grid_search.fit(X_train_scaled, y_train)
 
 print(f"Best Parameters: {grid_search.best_params_}")
+
+# Replace placeholders like 'your_dataset.csv' and 'target' with your actual data and target column name.
