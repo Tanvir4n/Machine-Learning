@@ -1,0 +1,28 @@
+9 steps for building a proper machine learning model:
+
+1. Load the Data
+Import the dataset using tools like pandas or numpy.
+
+2. Split Data into Train and Test Sets
+Use libraries like train_test_split from sklearn to divide data.
+
+3. Preprocess the Data
+Handle missing values, remove outliers, and encode categorical variables.
+
+4. Standardize/Scale the Data
+Apply standardization or normalization using tools like StandardScaler or MinMaxScaler.
+
+5. Define the Model
+Choose a machine learning algorithm (e.g., Linear Regression, SVM, Random Forest).
+
+6. Train (Fit) the Model
+Fit the model on the training data.
+
+7.Make Predictions
+Use the test data to make predictions.
+
+8. Evaluate Model Accuracy
+Calculate metrics like accuracy, precision, recall, or RMSE depending on the task.
+
+9.Hyperparameter Tuning
+Optimize the model by tuning parameters using GridSearchCV or RandomizedSearchCV.
