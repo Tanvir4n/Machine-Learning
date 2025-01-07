@@ -1,0 +1,6 @@
+>> python --version
+>> pip install jupyter
+
+create a folder named jupyter or something else then open Terminal on this directory and run 
+
+>> jupyter notebook 
